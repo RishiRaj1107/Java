@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.JavaSpring.jobsMS.job.external.Company;
 
-@FeignClient(name = "CompanyMS")
+@FeignClient(name = "companyMS")
 public interface CompanyClient {
 	
 	@GetMapping("/companies/{id}")

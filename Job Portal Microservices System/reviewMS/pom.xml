@@ -13,7 +13,7 @@
 	<artifactId>reviewMS</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>reviewMS</name>
-	<description>Mircroservices for Company App</description>
+	<description>Microservices for Review App</description>
 	<url />
 	<licenses>
 		<license />
@@ -53,10 +53,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
 		<!-- Redis Dependencies -->
 		<dependency>

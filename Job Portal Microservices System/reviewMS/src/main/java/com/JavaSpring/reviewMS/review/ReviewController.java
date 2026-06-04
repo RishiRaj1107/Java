@@ -24,8 +24,14 @@ public class ReviewController {
 		return new ResponseEntity<>(reviews, HttpStatus.OK);
 	}
 
+	@GetMapping("/averageRating")
+	public Double getAverageReview(@RequestParam Long companyId) {
+		List<Review> reviewList = reviewService.getAllReviews(companyId);
+		return reviewList.stream().mapToDouble(Review::getRating).average().orElse(0.0);
+	}
+
 	@PostMapping
-	@CacheEvict(value = "reviews", key = "#companyId")
+	@CacheEvict(value = "reviews", allEntries = true)
 	public ResponseEntity<String> addReview(@RequestParam Long companyId, @RequestBody Review review) {
 		boolean isReviewSaved = reviewService.addReview(companyId, review);
 		if (isReviewSaved) {
@@ -61,11 +67,5 @@ public class ReviewController {
 		} else {
 			return new ResponseEntity<>("Deletion failed", HttpStatus.NOT_FOUND);
 		}
-	}
-
-	@GetMapping("/averageRating")
-	public Double getAverageReview(@RequestParam Long companyId) {
-		List<Review> reviewList = reviewService.getAllReviews(companyId);
-		return reviewList.stream().mapToDouble(Review::getRating).average().orElse(0.0);
 	}
 }

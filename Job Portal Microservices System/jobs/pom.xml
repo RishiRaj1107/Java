@@ -13,7 +13,7 @@
 	<artifactId>jobs</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jobs</name>
-	<description>Mircroservices for Job App</description>
+	<description>Microservices for Job App</description>
 	<url />
 	<licenses>
 		<license />

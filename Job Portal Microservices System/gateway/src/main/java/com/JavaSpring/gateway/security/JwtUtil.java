@@ -29,31 +29,27 @@ public class JwtUtil {
     }
 
     public String generateToken(String username) {
-        logger.info("Generating token for username: {}", username);
+        logger.debug("Generating token for username: {}", username);
         String token = Jwts.builder()
                 .setSubject(username)
                 .setIssuedAt(new Date(System.currentTimeMillis()))
                 .setExpiration(new Date(System.currentTimeMillis() + expiration * 1000))
                 .signWith(getSigningKey())
                 .compact();
-        logger.info("Generated token: {}", token);
+        logger.debug("Token generated for username: {}", username);
         return token;
     }
 
     public boolean validateToken(String token) {
         try {
-            logger.info("Validating token: {}", token);
-            logger.info("Using secret key: {}", secret);
-            
             Jwts.parserBuilder()
                 .setSigningKey(getSigningKey())
                 .build()
                 .parseClaimsJws(token);
-            
-            logger.info("Token validation successful");
+            logger.debug("Token validation successful");
             return true;
         } catch (Exception e) {
-            logger.error("Token validation failed: {}", e.getMessage());
+            logger.debug("Token validation failed: {}", e.getMessage());
             return false;
         }
     }
@@ -66,7 +62,7 @@ public class JwtUtil {
                     .parseClaimsJws(token)
                     .getBody();
             String username = claims.getSubject();
-            logger.info("Extracted username from token: {}", username);
+            logger.debug("Extracted username from token: {}", username);
             return username;
         } catch (Exception e) {
             logger.error("Error extracting username from token: {}", e.getMessage());

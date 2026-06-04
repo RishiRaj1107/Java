@@ -8,6 +8,7 @@ public class JobMessage {
     private String maxSalary;
     private String location;
     private Long companyId;
+    private String eventType;
 
     // Default constructor
     public JobMessage() {
@@ -68,5 +69,13 @@ public class JobMessage {
 
     public void setCompanyId(Long companyId) {
         this.companyId = companyId;
+    }
+
+    public String getEventType() {
+        return eventType;
+    }
+
+    public void setEventType(String eventType) {
+        this.eventType = eventType;
     }
 } 
