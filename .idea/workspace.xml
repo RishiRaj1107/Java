@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7136fdbb-a077-4f0d-aa28-8aed928ef002" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/JobsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/JobsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/config/KafkaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/config/KafkaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/config/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/Job.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/Job.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/JobController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/JobController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/JobEventPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/JobEventPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/JobRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/JobRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/JobService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/JobService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/KafkaJobProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/KafkaJobProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/NoOpJobEventPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/NoOpJobEventPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/clients/CompanyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/clients/CompanyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/clients/ExternalJobDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/clients/ExternalJobDataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/clients/ReviewClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/clients/ReviewClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/dto/JobDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/dto/JobDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/dto/JobMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/dto/JobMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/external/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/external/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/external/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/external/Review.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/impl/JobServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/impl/JobServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/mapper/JobMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/classes/com/JavaSpring/jobsMS/job/mapper/JobMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/test-classes/com/JavaSpring/jobs/JobsApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Job Portal Microservices System/jobs/target/test-classes/com/JavaSpring/jobs/JobsApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring Boot/test.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RishiRaj1107"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RishiRaj1107/Java.git",
+    "accountId": "ce35006e-7417-4f03-a4f3-8c8eb19de00e"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3FUlQgvvFsFdfs1YmI5fMkjflFV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AppApplication.executor": "Run",
+    "Maven.app [org.springframework.boot:spring-boot-maven-plugin:4.1.0:run].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="AppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springboot.demo.app.AppApplication" />
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.demo.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7136fdbb-a077-4f0d-aa28-8aed928ef002" name="Changes" comment="" />
+      <created>1782137516052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782137516052</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
